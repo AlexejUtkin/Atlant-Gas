@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&family=Russo+One&display=swap');
 
 
 @import 'base/mixins';
@@ -7,9 +8,14 @@
 
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open sans', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #222222;
+    
 }
 
 .container {
@@ -19,17 +25,10 @@
 
 
 @import 'blocks/promo';
-@import 'blocks/title';
-@import 'blocks/buttons';
-@import 'blocks/sidepanel';
-@import 'blocks/menu';
-@import 'blocks/about';
-@import 'blocks/resume';
-@import 'blocks/skills';
-@import 'blocks/portfolio';
+@import 'blocks/button';
 @import 'blocks/price';
-@import 'blocks/contacts';
-@import 'blocks/media';
+@import 'blocks/title';
+
 
 
 
